@@ -19,7 +19,7 @@ fs.createReadStream(__dirname + '/node.ans')
 	}));
 ```
 
-now open `out.html`, because it's awesome:
+now open `out.html` because it's awesome:
 
 ![screenshot](http://i.imgur.com/DopdWo1.png)
 
