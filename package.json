@@ -1,7 +1,7 @@
 {
   "name": "escapes",
   "version": "0.1.0",
-  "description": "writable stream that renders ansi graphics into canvas",
+  "description": "writable stream to render ansi graphics into canvas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/tetsuo/node-escapes.git"
   },
-  "keywords": [],
+  "keywords": [
+    "escapes.js",
+    "ansi",
+    "art",
+    "canvas"
+  ],
   "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com)",
   "license": "MIT",
   "bugs": {
@@ -18,6 +23,7 @@
   },
   "homepage": "https://github.com/tetsuo/node-escapes#readme",
   "dependencies": {
-    "ansi-tokenize": "^0.2.0"
+    "ansi-tokenize": "^0.2.0",
+    "canvas": "^1.2.7"
   }
 }
